@@ -146,6 +146,11 @@ a:hover {
   margin: 0 0 16px;
 }
 
+.about-intro {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 .entry-list {
   display: grid;
   gap: 28px;
