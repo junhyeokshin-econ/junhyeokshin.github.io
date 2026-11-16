@@ -196,13 +196,17 @@ a:hover {
   line-height: 1.45;
 }
 
-.paper-title:hover {
+#work-in-progress .paper-title {
+  font-size: inherit;
+}
+
+.paper-title[href]:hover {
   color: var(--accent-hover);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.paper-title:focus-visible {
+.paper-title[href]:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
 }
